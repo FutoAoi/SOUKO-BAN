@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f289ca37e6ef804eb28bba6d55d6099, type: 3}
+  m_Name: WarehouseWorldArt
+  m_EditorClassIdentifier: Assembly-CSharp::Warehouse.WarehouseWorldArt
+  floor: {fileID: 21300000, guid: 91421129d94213c4fb5313504922a586, type: 3}
+  entrance: {fileID: 21300000, guid: b5672fdd8374cca439e08149a8d442d2, type: 3}
+  floorTint: {r: 1, g: 1, b: 1, a: 1}
+  player:
+    down:
+    - {fileID: 21300000, guid: 681070c13af3b0b44bd3cc1849f039a0, type: 3}
+    - {fileID: 21300000, guid: dbbbf30081a0b834895c30f23eaed3e7, type: 3}
+    - {fileID: 21300000, guid: 6a7aebc56a642f443bbc9624422348ed, type: 3}
+    up:
+    - {fileID: 21300000, guid: 68301fe0dd5944a4583a9e635efbb67c, type: 3}
+    - {fileID: 21300000, guid: a1f44733f22a44d40ac09654127c3345, type: 3}
+    - {fileID: 21300000, guid: feabaf811463a644e9d1769199244d18, type: 3}
+    left:
+    - {fileID: 21300000, guid: 5ead067275181d34a94e17da3191cc5d, type: 3}
+    - {fileID: 21300000, guid: 7614bd6a54f2dce4b963700796a3f16f, type: 3}
+    - {fileID: 21300000, guid: 85e08b4bd97322c4ab5bf7c3c88d38df, type: 3}
+    right:
+    - {fileID: 21300000, guid: a766a94f8c950424cac110e36454794b, type: 3}
+    - {fileID: 21300000, guid: 033d4d9fd10b3724aa9fa623e64efe4f, type: 3}
+    - {fileID: 21300000, guid: ac151096c29fdb44bb918fe5187e75a4, type: 3}
+  npc:
+    down:
+    - {fileID: 21300000, guid: c93aa029969767441ab585744bcdd09e, type: 3}
+    - {fileID: 21300000, guid: b8a5d4877af4f8142b1ba5531e267cfc, type: 3}
+    - {fileID: 21300000, guid: 660cb0a12f2bb414ca88e2b8ddb58661, type: 3}
+    up:
+    - {fileID: 21300000, guid: b498d44b40c8d8848bae0c93523178a5, type: 3}
+    - {fileID: 21300000, guid: bab65c3bf7dbd754c92190f8ecf15854, type: 3}
+    - {fileID: 21300000, guid: 16b122ced3cd5b6489e1c7f8cddaa94c, type: 3}
+    left:
+    - {fileID: 21300000, guid: 9b957387708948a4f8f1e32b1db71c5b, type: 3}
+    - {fileID: 21300000, guid: c2659f73d32c9b94aa79eed0bfc888ca, type: 3}
+    - {fileID: 21300000, guid: 2dbad6042ce9eaf4ab3d063e19520b7b, type: 3}
+    right:
+    - {fileID: 21300000, guid: 98d6c50cc7fae4348838a5f10deb7ada, type: 3}
+    - {fileID: 21300000, guid: f664d722d2a69d74d9f64f14f0ea1279, type: 3}
+    - {fileID: 21300000, guid: b05e05d68eb71b949b36a1b5e4f9d431, type: 3}
+  characterSize: {x: 0.9, y: 0.9}
+  characterOffset: {x: 0, y: 0.15}
+  walkFramesPerSecond: 6

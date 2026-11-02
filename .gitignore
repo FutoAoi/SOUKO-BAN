@@ -13,6 +13,9 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+/[Aa]ssets/[Aa]rt/
+/[Aa]ssets/UI/[Aa]rt/
+/[Dd]ocs/
 *.log
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
@@ -107,3 +110,11 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Imported third-party source packs (selected UI sprites live in Assets/UI/Art).
+/Assets/kenney_ui-pack-pixel-adventure/
+/Assets/kenney_ui-pack-pixel-adventure.meta
+/Assets/Ninja Adventure - Asset Pack/
+/Assets/Ninja Adventure - Asset Pack.meta
+/Assets/crafting_materials/
+/Assets/crafting_materials.meta

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db5eaf17a16471f449dbffa559f05dc3, type: 3}
+  m_Name: timber_beam
+  m_EditorClassIdentifier: Assembly-CSharp::Warehouse.ItemDefinition
+  definition:
+    id: timber_beam
+    name: "\u89D2\u6750"
+    equipment: 
+    max: 99
+    width: 1
+    height: 1
+    slots: 0
+    color: B77F4D
+    kind: 
+  icon: {fileID: 21300000, guid: 7986eeb90c651484a81f91a46afb6e3a, type: 3}
+  worldSprite: {fileID: 0}
+  worldSize: {x: 1, y: 1}
+  worldOffset: {x: 0, y: 0}

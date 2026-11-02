@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38d1786921535b046aaaa9ed332d2713, type: 3}
+  m_Name: WarehouseDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::Warehouse.WarehouseDatabase
+  items:
+  - {fileID: 11400000, guid: 6fef38dcc936f1b40afb8479a021a77e, type: 2}
+  - {fileID: 11400000, guid: 632a0699c08c6e1448e629584b6fbd13, type: 2}
+  - {fileID: 11400000, guid: 85977cf3adc4c3d428726d84b07f8802, type: 2}
+  - {fileID: 11400000, guid: 06ec58929da2b734ca114af04fbccbdc, type: 2}
+  - {fileID: 11400000, guid: 2175dc0e62249f641a0b866ad0a8750d, type: 2}
+  - {fileID: 11400000, guid: 70eb2540452d8c24686622af2ed2cb58, type: 2}
+  - {fileID: 11400000, guid: 3894d82ed1cb8584daa40f1b8b911eb1, type: 2}
+  - {fileID: 11400000, guid: f03725fbc83af7d4594198b9151aeed1, type: 2}
+  - {fileID: 11400000, guid: 993ebac20ba0e60449b71b20239ccbc3, type: 2}
+  - {fileID: 11400000, guid: 7f511ee5aa8de504c8717037b3972495, type: 2}
+  - {fileID: 11400000, guid: 4f159d41144af494289b41fe61ad0ffb, type: 2}
+  - {fileID: 11400000, guid: 589c209a0ce7b634ab5bf8f804d96242, type: 2}
+  - {fileID: 11400000, guid: d51b09c133e5fab4fafc45ea8204d869, type: 2}
+  - {fileID: 11400000, guid: b80e7253bcce7d04a9496dfc171fc1c6, type: 2}
+  - {fileID: 11400000, guid: 5a0a5376a22ae7d4db3704b9415b9722, type: 2}
+  - {fileID: 11400000, guid: 8b5536a0e8070b046910d16ab3baa173, type: 2}
+  - {fileID: 11400000, guid: a56fe512a4ce21c498d076a2504ba719, type: 2}
+  - {fileID: 11400000, guid: dd146bc54251ffc4f9a01f5219163384, type: 2}
+  - {fileID: 11400000, guid: a197763ba0c518b43876db5309e01c3e, type: 2}
+  - {fileID: 11400000, guid: 144b7445d1000d24da30ea17b58ddcc0, type: 2}
+  - {fileID: 11400000, guid: 60fe73239b3797548bf6cf1e0244144a, type: 2}
+  - {fileID: 11400000, guid: f4b1c6ac1a4ef4a4fb20d437be37f446, type: 2}
+  - {fileID: 11400000, guid: 14dc4cc6ec360c048baa0a8b154ac140, type: 2}
+  - {fileID: 11400000, guid: 5fcd2d0c861d9854ab4040cde7520167, type: 2}
+  settings:
+    width: 24
+    height: 24
+    initialSlots: 18
+    maxSlots: 36
+    upgradeSlots: 9
+    moveSpeed: 4
+    interactDistance: 1.5
+    pickupDistance: 0.75
+    dismantleSeconds: 1
+    saveSeconds: 60
+    expeditionSeconds: 20
+    equippedExpeditionSeconds: 16
+    furnaceSeconds: 8
+    equipmentMultiplier: 1.25
+    normalRolls: 4
+    bagRolls: 6
+    woodChance: 0.49
+    stoneChance: 0.3
+    oreChance: 0.2
+    armedWoodChance: 0.48
+    items: []
+    recipes:
+    - output: plank
+      count: 2
+      ingredients:
+      - id: wood
+        count: 1
+      discoveries: []
+    - output: chest_small
+      count: 1
+      ingredients:
+      - id: plank
+        count: 6
+      discoveries: []
+    - output: workbench
+      count: 1
+      ingredients:
+      - id: plank
+        count: 8
+      discoveries: []
+    - output: wall
+      count: 1
+      ingredients:
+      - id: wood
+        count: 1
+      discoveries: []
+    - output: furnace
+      count: 1
+      ingredients:
+      - id: stone
+        count: 8
+      discoveries:
+      - stone
+    - output: chest_large
+      count: 1
+      ingredients:
+      - id: plank
+        count: 12
+      - id: iron_ingot
+        count: 2
+      discoveries:
+      - iron_ingot
+    - output: forest_delivery
+      count: 1
+      ingredients:
+      - id: plank
+        count: 40
+      - id: stone
+        count: 30
+      - id: iron_ingot
+        count: 8
+      discoveries:
+      - iron_ingot
+    - output: npc_sword
+      count: 1
+      ingredients:
+      - id: plank
+        count: 2
+      - id: iron_ingot
+        count: 4
+      discoveries:
+      - iron_ingot
+    - output: npc_bag
+      count: 1
+      ingredients:
+      - id: plank
+        count: 8
+      - id: iron_ingot
+        count: 2
+      discoveries:
+      - iron_ingot
+    - output: npc_boots
+      count: 1
+      ingredients:
+      - id: plank
+        count: 4
+      - id: iron_ingot
+        count: 2
+      discoveries:
+      - iron_ingot
+    - output: player_boots
+      count: 1
+      ingredients:
+      - id: plank
+        count: 6
+      - id: iron_ingot
+        count: 2
+      discoveries:
+      - iron_ingot
+    - output: work_gloves
+      count: 1
+      ingredients:
+      - id: plank
+        count: 6
+      - id: iron_ingot
+        count: 3
+      discoveries:
+      - iron_ingot
+    - output: inventory_upgrade
+      count: 1
+      ingredients:
+      - id: plank
+        count: 12
+      - id: iron_ingot
+        count: 4
+      - id: forest_crystal
+        count: 1
+      discoveries:
+      - forest_crystal
+      - iron_ingot
+    - output: timber_beam
+      count: 1
+      ingredients:
+      - id: plank
+        count: 4
+      discoveries:
+      - plank
+    - output: stone_block
+      count: 1
+      ingredients:
+      - id: stone
+        count: 4
+      discoveries:
+      - stone
+    - output: iron_plate
+      count: 1
+      ingredients:
+      - id: iron_ingot
+        count: 2
+      discoveries:
+      - iron_ingot
+    - output: crystal_ingot
+      count: 1
+      ingredients:
+      - id: iron_ingot
+        count: 2
+      - id: forest_crystal
+        count: 1
+      discoveries:
+      - iron_ingot
+      - forest_crystal
+    - output: reinforced_chest
+      count: 1
+      ingredients:
+      - id: timber_beam
+        count: 6
+      - id: iron_plate
+        count: 4
+      - id: crystal_ingot
+        count: 1
+      discoveries:
+      - timber_beam
+      - iron_plate
+      - crystal_ingot
+    - output: stone_wall
+      count: 1
+      ingredients:
+      - id: stone_block
+        count: 2
+      discoveries:
+      - stone_block
